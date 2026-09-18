@@ -1,0 +1,1 @@
+export type Lead={id:number,name:string,service:string,region:string,size:number,date:string,options:string[],status:'신규'|'견적완료'|'예약요청',intent:'HIGH'|'MEDIUM'};export type QuoteRule={base:number,perPyeong:number,window:number,sticker:number,weekendRate:number};
